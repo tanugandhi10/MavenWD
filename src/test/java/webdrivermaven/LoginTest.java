@@ -29,6 +29,7 @@ public static WebDriver driver;
 	@AfterSuite
 	public void tearDown()
 	{
-		driver.quit();
+		System.out.println("test print");
+		//driver.quit();
 	}
 }
