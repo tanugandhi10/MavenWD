@@ -23,6 +23,8 @@ public static WebDriver driver;
 		driver.findElement(By.id("Email")).sendKeys("gandhitanu123");
 		driver.findElement(By.id("Passwd"));
 		
+		//added new comments
+		
 	}
 	
 	@AfterSuite
